@@ -1,0 +1,27 @@
+.qr-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .qr-code-container img {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* Default width, scales with viewport */
+  }
+
+  body{
+    background-color:rgba(66, 1, 90, 0.839);
+    max-width:100%;
+    background-size: cover;
+  }
+
+  @media (max-width: 600px) {
+   
+  
+    .qr-code-container img {
+      width: 200px;
+    }
+  }
